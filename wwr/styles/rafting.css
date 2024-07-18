@@ -1,22 +1,164 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-
-:root {
-    --blue: rgb(30, 184, 231);
-    --white: rgb(187, 187, 187);
-
-    --heading-font: "Indie Flower", cursive;
-
-
-}
-
 .indie-flower-regular {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
   }
 
-h1, h2 {
-    font-family: var(--heading-font)
+:root {
+    --phthalo-blue: #020887ff;
+    --marian-blue: #334195ff;
+    --glaucous: #647aa3ff;
+    --ash-gray: #95b2b0ff;
+    --tea-green: #c6ebbeff;
+
+    --heading-font: "Indie Flower", cursive;
+    --paragraph-font: "Indie Flower",
+    --blue: rgb(30, 184, 231);
+    --white: rgb(187, 187, 187);
+
+    
+
+
+}
+
+body {
+    background-color: var(--ash-gray);
+}
+
+header {
+	margin: 1rem auto;
+    padding: 20px;
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr 1fr;
+	align-items: center;
+    justify-items: center;   
+	border-bottom: 1px solid #ccc;
+	max-width: 100%;
+    background-color: rgba(4, 155, 224, 0.5);
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width: 80px;
+	height: auto;
+}
+
+nav {
+    display: grid;
+	grid-template-columns: 95px 95px 95px 95px;
+	align-items: center;
+    justify-items: center;  
+    text-align: center;
+}
+
+nav div {
+    border: 1px solid black;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: beige;
+    border-radius: 3px;
     
 }
+
+
+
+.hero h1 {
+
+    position: absolute;
+    top:25%; left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: center;
+    color: rgb(224, 224, 224);
+
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 90%; 
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(101, 208, 243, 0.5);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.hero article img {
+    width: 250px;
+    float: right;
+    opacity: 1;
+}
+
+.history p {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--tea-green);
+}
+
+section {
+    border: 1px solid black;
+}
+
+.adventure{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: right;
+    justify-content: right;
+}
+
+.adventure img {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background-color: var(--marian-blue);
+}
+
+.adventure p {
+    position: relative;
+    top: 80%;  left: 90%;
+    transform: translateY(-50%) translateX(-50%);
+
+}
+
+a:link { 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: large;
+    font-family: var(--heading-font);
+  } 
+
+  a:visited { 
+    text-decoration: none; 
+  } 
+
+  a:hover { 
+    text-decoration: none; 
+  } 
+
+  a:active { 
+    text-decoration: none; 
+  }
+
+footer {
+    background-color: aqua;
+    padding: 1px;
+    text-align: center;
+
+}
+
+

@@ -8,10 +8,12 @@ body {
 }
 
 :root {
-    --primary-color: #020887
-    --secondary-color: #334195
-    --accent1-color: #286870
-    --accent2-color: #95b2b0
+/* CSS HEX */
+    --phthalo-blue: #020887ff;
+    --marian-blue: #334195ff;
+    --glaucous: #647aa3ff;
+    --ash-gray: #95b2b0ff;
+    --tea-green: #c6ebbeff;
 
     --heading-font: 'ubuntu', serif;
     --paragraph-font: 'ubuntu', serif;
