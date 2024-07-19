@@ -113,27 +113,23 @@ section {
 }
 
 .adventure{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
     width: 50%;
     margin: auto;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .adventure img {
     width: 300px;
     height: auto;
     padding: 10px;
-    background-color: var(--marian-blue);
 }
 
-.adventure p {
-    position: relative;
-    top: 80%;  left: 90%;
-    transform: translateY(-50%) translateX(-50%);
 
-}
 
 a:link { 
     text-decoration: none; 
@@ -153,6 +149,23 @@ a:link {
   a:active { 
     text-decoration: none; 
   }
+
+form {
+    display: grid;
+    border: 1px solid black;
+    width: 358px;
+}
+    
+textarea, input {
+    width: 350px;
+
+}
+
+button {
+    width: 5em;
+    border-radius: 15px;
+    
+}
 
 footer {
     background-color: aqua;
