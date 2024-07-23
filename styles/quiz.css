@@ -22,15 +22,24 @@
     margin: 0;
     background: #ffffff;
   }
+
+  header {
+    text-align: center;
+  }
+
+  input {
+    height: 25px
+  }
   
   form {
     position: relative;
     width: 740px;
-    height: 498px;
+    height: auto;
     margin: 0 auto;
     padding: 1em;
     box-sizing: border-box;
     background: #fff url(background.jpg);
+    background-color: aquamarine;
   
     /* we create our grid */
     display: grid;
@@ -45,5 +54,10 @@
     height: 4em;
     border-radius: 10px;
     
+  }
+
+  footer {
+    text-align: center;
+    margin: 10px;
   }
 

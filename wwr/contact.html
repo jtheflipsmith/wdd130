@@ -12,86 +12,101 @@
         <header>
             <img src="images/rafting-logo.jpg" alt="company logo">
             <nav>
-                <a href="index.html">Index</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="Contact.html">Contact Us</a>
+                <div>    
+                    <a href="index.html">Index</a>
+                </div> 
+                <div>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div>
+                    <a href="trips.html">Trips</a>
+                </div>
+                <div>
+                    <a href="Contact.html">Contact Us</a>
+                </div>
             </nav>
         </header>
         <main>
-            <section>
-                <h2>Company Information</h2>
-                <h3>Address</h3>
-                <p>10637 108th ST NW Edmonton, Alberta, Canada</p>
-
-                <h3>Phone Number</h3>
-                <p>(780) 992-1161</p>
-
-                <h3>Email</h3>
-                <p>liferafting@liferafting.com</p>
+            <section class="info">
+                <div>
+                    <h2>Company Information</h2>
+                    <h3>Address</h3>
+                    <p>10637 108th ST NW Edmonton, Alberta, Canada</p>
+    
+                    <h3>Phone Number</h3>
+                    <p>(780) 992-1161</p>
+    
+                    <h3>Email</h3>
+                    <p>liferafting@liferafting.com</p>
+                </div>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25391.985504266602!2d-113.51135624392228!3d53.548890409546026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1721330641979!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
             <section>
                 <h2>Meet Our Employees</h2>
-                <div class="adventure"> 
+                <div class="employee"> 
                     <div>      
                         <img src="images/employee1.jpg" alt="rafting team">
-                        <p><strong>Evan Bowson</strong></p>
                         <p>Tour Guide</p>
+                        <p><strong>Evan Bowson</strong></p>
                     </div>
                     <div>
                         <img src="images/employee2.jpg" alt="fun rafting">
-                        <p><strong>Niko Erikson</strong></p>
                         <p>Customer Service Rep</p>
+                        <p><strong>Niko Erikson</strong></p>
                     </div>
                     <div>
                         <img src="images/employee3.jpg" alt="solo rafting">
-                        <p><strong>Mandy Mink</strong></p>
                         <p>Scheduling Co-Ordinator</p>
+                        <p><strong>Mandy Mink</strong></p>
                     </div>
                     <div>
                         <img src="images/employee4.jpg" alt="Rafting zoomed out">
-                        <p><strong>Liam Short</strong></p> 
                         <p>Website Design</p>
+                        <p><strong>Liam Short</strong></p> 
                     </div>
                     <div>
                         <img src="images/employee5.jpg" alt="team work">
-                        <p><strong>Kayla Sheen</strong></p>
                         <p>Social Medea Rep</p>  
+                        <p><strong>Kayla Sheen</strong></p>
                     </div>
                 </div>
             </section>
-            <form action="/index.html">    
-                <label for="name">Name</label>
-                <input type="text" name="q1" id="name">
-                <label for="email">Email</label>
-                <input type="text" name="q1" id="email">
-                <input type="radio" id="gi" name="general inquiry" value="Gneral Enquiry">
-                <label for="gi">General Inquiry</label><br>
-           
-                <input type="radio" id="rq" name="reservation question" value="Reservation Request">
-                <label for="rq">Reservation Question</label><br>
-                <input type="radio" id="ws" name="website suggestion" value="Website Suggestion">
-                <label for="ws">Website Suggestion</label><br>
-                <label for="q2">Message</label>
-                <textarea id="q2" name="q2"></textarea>
-                <button>Submit</button>
-            
-
+            <form action="/index.html">
+                <div class="align">
+                    <label for="name">Name</label>
+                    <input type="text" name="q1" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="q1" id="email">
+                </div>
+                <div class="radio">
+                    <p>Why are you reaching out today?</p>
+                    <input type="radio" id="gi" name="general inquiry" value="Gneral Enquiry">
+                    <label for="gi">General Inquiry</label><br>
+                    <input type="radio" id="rq" name="reservation question" value="Reservation Request">
+                    <label for="rq">Reservation Question</label><br>
+                    <input type="radio" id="ws" name="website suggestion" value="Website Suggestion">
+                    <label for="ws">Website Suggestion</label><br>
+                </div>
+                <div class="align">
+                    <label for="q2">Message</label>
+                    <textarea id="q2" name="q2"></textarea>
+                    <button>Submit</button> 
+                </div>              
             </form>
+
         </main>
         <footer>
             <p>&copy;2024 Life Rafting | Joshua Smith</p>
             <nav class="sociallinks">
                 <a href="https://www.facebook.com/">
-                    <img src="images/facebook.svg" alt="book icon">
+                    <img src="images/icons8-facebook-logo.svg" alt="book icon">
                 </a>
                 <a href="https://www.instagram.com/">
-                    <img src="images/instagram.svg" alt="camera icon">
+                    <img src="images/icons8-instagram.svg" alt="camera icon">
                 </a>
                 <a href="https://x.com/">
-                    <img src="images/x.svg" alt="x icon">
+                    <img src="images/icons8-x-logo.svg" alt="x icon">
                 </a>
             </nav>
 
