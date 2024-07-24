@@ -12,15 +12,11 @@
     --heading-font: "raleway";
     --paragraph-font: "raleway";
 
-    --blue: rgb(30, 184, 231);
-    --white: rgb(187, 187, 187);
 
 }
 
 p {
     font-family: var(--paragraph-font);
-    font-weight: 300;
-    font-style: normal;
 }
 
 .raleway-thin {
@@ -123,7 +119,7 @@ section {
     position: absolute;
     top: 52%; left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    background-color: rgba(255, 252, 252, 0.5);
+    background-color: rgba(255, 252, 252, 0.7);
     padding: 1%;
     border: none;
 }
@@ -254,6 +250,11 @@ table tr th{
     margin: 10px auto;
     padding:5px;
     grid-gap: 15px
+}
+
+.hook p {
+    grid-column: 1/ span 3;
+    margin: 10px;
 }
 
 .content div{
